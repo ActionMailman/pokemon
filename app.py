@@ -8,7 +8,7 @@ def home():
     return render_template('index.html')
 
 
-@app.route("/data")
+@app.route("/pokemon/data")
 def pokemon():
     return render_template('pokemon.html')
 
